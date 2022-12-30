@@ -1,0 +1,99 @@
+.messageWrapper {
+    position: relative;
+    display: flex;
+}
+
+.myMessageWrapper {
+    justify-content: end;
+}
+
+.overMessageWrapper {
+    justify-content: start;
+    flex-direction: row-reverse;
+}
+
+.message {
+    min-width: 110px;
+    max-width: 70%;
+    position: relative;
+    height: auto;
+    display: inline-block;
+    padding: 15px 20px 40px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.myMessage {
+    background: #5850c0;
+    color: #fff;
+
+}
+
+.overMessage {
+    background: #e0dfdf;
+    color: #474040;
+    padding-left: 12px;
+    padding-top: 21px;
+}
+
+.authorMessage {
+    position: absolute;
+    top: 3px;
+    left: 13px;
+    font-weight: bold;
+}
+
+.time {
+    position: absolute;
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.myTime {
+    right: 0;
+    margin-top: 14px;
+    margin-right: 10px;
+    color: rgba(255,255,255,0.5);
+}
+
+.overTime {
+    left: 0;
+    margin-top: 14px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.reactions {
+    position: absolute;
+    display: inline;
+    bottom: 0;
+
+}
+
+.myReactions {
+    left: 0;
+    margin-bottom: 7px;
+    margin-left: 12px;
+}
+
+.overReactions {
+    right: 0;
+    margin-bottom: 7px;
+    margin-right: 12px;
+}
+
+.emotions {
+    cursor: pointer;
+    border-radius: 333px;
+    border: 1px solid #6b606e;
+    font-size: 11px;
+    width: 30px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 4px;
+    margin-left: 5px;
+}

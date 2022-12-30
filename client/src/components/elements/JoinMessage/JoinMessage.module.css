@@ -1,0 +1,13 @@
+.messageWrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.message {
+    background: rgba(89, 84, 84, 0.5);
+    color: white;
+    font-size: 20px;
+    padding: 3px 15px;
+    border-radius: 333px;
+}
